@@ -1,0 +1,39 @@
+{
+  "turns": 100,
+  "regeneration_rate": 0.78,
+  "neutral_fallback_rate": 0.46,
+  "backends": {
+    "caa": "template",
+    "nli": "hf:microsoft/deberta-large-mnli",
+    "extractor": "regex",
+    "realise": "bank",
+    "belief": "gaussian"
+  },
+  "hardware": {
+    "machine": "AMD64",
+    "processor": "AMD64 Family 23 Model 160 Stepping 0, AuthenticAMD",
+    "python": "3.14.0"
+  },
+  "table": {
+    "median_ms": {
+      "belief_update": 0.04,
+      "belief": 0.06,
+      "policy": 1.95,
+      "realise_y_ped": 0.0,
+      "presentation": 0.07,
+      "verifier": 2484.78,
+      "explain": 0.13,
+      "total": 2489.11
+    },
+    "p95_ms": {
+      "belief_update": 0.06,
+      "belief": 0.1,
+      "policy": 2.99,
+      "realise_y_ped": 0.0,
+      "presentation": 0.1,
+      "verifier": 2733.65,
+      "explain": 0.18,
+      "total": 2735.59
+    }
+  }
+}

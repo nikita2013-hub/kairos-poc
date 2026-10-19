@@ -1,0 +1,66 @@
+{
+  "GRKT": {
+    "uncalibrated": {
+      "auc": 0.7282880771224792,
+      "ece": 0.011413721442576253,
+      "n": 12640,
+      "prereq_consistency": 0.9840545550847457,
+      "auc_prereq_skip": 0.7065259275569745,
+      "n_prereq_skip": 417
+    },
+    "temperature": 0.9761826992034912,
+    "calibrated": {
+      "auc": 0.7282880771224792,
+      "ece": 0.013786489406859935,
+      "n": 12640,
+      "prereq_consistency": 0.9840492584745762,
+      "auc_prereq_skip": 0.7065259275569745,
+      "n_prereq_skip": 417
+    }
+  },
+  "AttnKT (K-KG)": {
+    "uncalibrated": {
+      "auc": 0.7261324370049145,
+      "ece": 0.019493103167631587,
+      "n": 12640,
+      "prereq_consistency": 0.6857362288135593,
+      "auc_prereq_skip": 0.7107095673235716,
+      "n_prereq_skip": 417
+    },
+    "temperature": 1.0539807081222534,
+    "calibrated": {
+      "auc": 0.7261324774474321,
+      "ece": 0.015427070619727055,
+      "n": 12640,
+      "prereq_consistency": 0.6875370762711864,
+      "auc_prereq_skip": 0.7107095673235716,
+      "n_prereq_skip": 417
+    }
+  },
+  "DKT": {
+    "uncalibrated": {
+      "auc": 0.7318294127053512,
+      "ece": 0.014345870699285517,
+      "n": 12640,
+      "prereq_consistency": 0.6998106461864406,
+      "auc_prereq_skip": 0.6989293185071013,
+      "n_prereq_skip": 417
+    },
+    "temperature": 0.9824190735816956,
+    "calibrated": {
+      "auc": 0.7318294261861904,
+      "ece": 0.014571752754641289,
+      "n": 12640,
+      "prereq_consistency": 0.6979038665254238,
+      "auc_prereq_skip": 0.6989293185071013,
+      "n_prereq_skip": 417
+    }
+  },
+  "setup": {
+    "data": "synthetic",
+    "n_skills": 40,
+    "n_prereq_edges": 59,
+    "epochs": 5,
+    "seed": 0
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "K": {
+    "TPG": 0.02879117813604277,
+    "TPG_coverage": 0.79,
+    "TPG_null_mean": 0.027503607599224263,
+    "TPG_null_p95": 0.03090356216275196,
+    "TPG_excess_over_null": 0.001287570536818508,
+    "TPG_p_value": 0.33663366336633666,
+    "zar_belief": 1.0,
+    "zar_true": 0.375375,
+    "elg_gap": 0.011115675769801533,
+    "ci": [
+      0.008404260714435207,
+      0.013550187721471893
+    ],
+    "mean_gain_g0": 0.03909007490985172,
+    "mean_gain_g1": 0.027974399140050184,
+    "mean_gain": 0.03347665864610194,
+    "adapted_rate": 0.761375,
+    "regenerations_per_turn": 1.129875,
+    "neutral_fallback_rate": 0.238625,
+    "safe_default_rate": 0.0,
+    "seconds": 53.0,
+    "schema_swap_identical_core": 1.0
+  },
+  "K-latpop": {
+    "TPG": 0.043506092588043,
+    "TPG_coverage": 0.61125,
+    "TPG_null_mean": 0.031173191014109203,
+    "TPG_null_p95": 0.03491815007682893,
+    "TPG_excess_over_null": 0.012332901573933797,
+    "TPG_p_value": 0.009900990099009901,
+    "zar_belief": 1.0,
+    "zar_true": 0.390125,
+    "elg_gap": 0.010754836504102396,
+    "ci": [
+      0.008177501654523398,
+      0.013002560582070142
+    ],
+    "mean_gain_g0": 0.03916398081036656,
+    "mean_gain_g1": 0.028409144306264164,
+    "mean_gain": 0.033732788375794846,
+    "adapted_rate": 0.76,
+    "regenerations_per_turn": 1.140625,
+    "neutral_fallback_rate": 0.24,
+    "safe_default_rate": 0.0,
+    "seconds": 45.0
+  },
+  "K-FAIR": {
+    "TPG": 0.4993244028038748,
+    "TPG_coverage": 0.554625,
+    "TPG_null_mean": 0.04246428408182491,
+    "TPG_null_p95": 0.050830031032276436,
+    "TPG_excess_over_null": 0.4568601187220499,
+    "TPG_p_value": 0.009900990099009901,
+    "zar_belief": 0.51425,
+    "zar_true": 0.39925,
+    "elg_gap": 0.0035603570290141107,
+    "ci": [
+      0.0013233215453634472,
+      0.005899410585804432
+    ],
+    "mean_gain_g0": 0.039582647247074866,
+    "mean_gain_g1": 0.04314300427608898,
+    "mean_gain": 0.04138062754672699,
+    "adapted_rate": 0.738625,
+    "regenerations_per_turn": 1.19775,
+    "neutral_fallback_rate": 0.261375,
+    "safe_default_rate": 0.0,
+    "seconds": 46.1,
+    "schema_swap_identical_core": 0.0815
+  },
+  "K-CAA": {
+    "TPG": 0.02879117813604277,
+    "TPG_coverage": 0.79,
+    "TPG_null_mean": 0.027503607599224263,
+    "TPG_null_p95": 0.03090356216275196,
+    "TPG_excess_over_null": 0.001287570536818508,
+    "TPG_p_value": 0.33663366336633666,
+    "zar_belief": 1.0,
+    "zar_true": 0.375375,
+    "elg_gap": 0.011115675769801533,
+    "ci": [
+      0.008404260714435207,
+      0.013550187721471893
+    ],
+    "mean_gain_g0": 0.03909007490985172,
+    "mean_gain_g1": 0.027974399140050184,
+    "mean_gain": 0.03347665864610194,
+    "adapted_rate": 0.0,
+    "regenerations_per_turn": 0.0,
+    "neutral_fallback_rate": 0.0,
+    "safe_default_rate": 0.0,
+    "seconds": 47.1
+  },
+  "ClassicITS": {
+    "TPG": 0.025968748824885316,
+    "TPG_coverage": 0.750625,
+    "TPG_null_mean": 0.025641112960403774,
+    "TPG_null_p95": 0.029604816815806158,
+    "TPG_excess_over_null": 0.00032763586448154164,
+    "TPG_p_value": 0.43564356435643564,
+    "zar_belief": 0.32775,
+    "zar_true": 0.211875,
+    "elg_gap": 0.0011467566326169663,
+    "ci": [
+      0.00010422551013023578,
+      0.002299677130623838
+    ],
+    "mean_gain_g0": 0.010413841207675249,
+    "mean_gain_g1": 0.009267084575058282,
+    "mean_gain": 0.00983472910820368,
+    "adapted_rate": 0.0,
+    "regenerations_per_turn": 0.0,
+    "neutral_fallback_rate": 0.0,
+    "safe_default_rate": 0.0,
+    "seconds": 28.4
+  },
+  "K_vs_K-CAA_gain_diff": 0.0,
+  "setup": {
+    "assistments": null,
+    "graph": null,
+    "n_skills": 40,
+    "seed": 0,
+    "n_learners": 200,
+    "steps": 40,
+    "n_min": 20,
+    "n_perm": 100,
+    "belief": "gaussian",
+    "grkt_ckpt": null,
+    "conditions": "K,K-latpop,K-FAIR,K-CAA,ClassicITS",
+    "swap_learners": 50,
+    "n_prereq_edges": 59,
+    "sim_config": {
+      "n_groups": 2,
+      "group_theta_offset": [
+        0.0,
+        -0.5
+      ],
+      "group_latency_shift": [
+        0.0,
+        0.3
+      ],
+      "schema_group_corr": 0.8,
+      "slope": 1.7,
+      "guess": 0.15,
+      "slip": 0.08,
+      "prereq_penalty": 0.6,
+      "zpd_peak": 0.5,
+      "zpd_width": 0.9,
+      "adapted_difficulty_shift": 0.0
+    },
+    "policy_config": {
+      "theta": 0.85,
+      "delta_lo": 0.05,
+      "delta_hi": 0.25,
+      "omega": 0.5,
+      "rho": 0.7,
+      "frust_w": [
+        1.2,
+        0.6,
+        1.0,
+        2.0
+      ],
+      "frust_b": -2.0,
+      "safe_max_frustration": 0.85,
+      "pivotal_sigma": 0.08,
+      "max_targets": 6
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "label_source": "auto",
+  "n": 300,
+  "n_pos": 154,
+  "n_neg": 146,
+  "FRR": 0.2857142857142857,
+  "FRR_CI": [
+    0.21427448337825697,
+    0.3571649029982363
+  ],
+  "FAR": 0.0,
+  "FAR_CI": [
+    0.0,
+    0.0
+  ],
+  "false_rejection_reasons": {
+    "linguistic_load": 44
+  },
+  "false_accepts_by_construction": {},
+  "nli": "hf:microsoft/deberta-large-mnli",
+  "extractor": "regex",
+  "eta_load": 0.15
+}
